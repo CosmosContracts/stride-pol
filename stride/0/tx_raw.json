@@ -1,0 +1,37 @@
+{
+    "body": {
+        "messages": [
+            {
+                "@type": "/cosmos.bank.v1beta1.MsgSend",
+                "from_address": "stride12699lad3tfukw2ag5v4c8kx9v4cltkxkhujlw5",
+                "to_address": "stride1s33zct2zhhaf60x4a90cpe9yquw99jj0hqsqjm",
+                "amount": [
+                    {
+                        "denom": "ustrd",
+                        "amount": "1000000"
+                    }
+                ]
+            }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+    },
+    "auth_info": {
+        "signer_infos": [],
+        "fee": {
+            "amount": [
+                {
+                    "denom": "ustrd",
+                    "amount": "3500"
+                }
+            ],
+            "gas_limit": "350000",
+            "payer": "",
+            "granter": ""
+        },
+        "tip": null
+    },
+    "signatures": []
+}
